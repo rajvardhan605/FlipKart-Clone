@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: rgb(40, 116, 240);
+    color: white;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    width: 88px;
+    padding: 0px 25px;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+}
+
+.search input{
+    height: 30px;
+    width: 30vw;
+    border-radius: 4px;
+    padding: 0px 10px;
+}
+
+.search a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search a img{
+    height: 5.6vh;
+    position: absolute;
+    left: 43vw;
+    color: rgb(40, 116, 240);
+    cursor: pointer;
+}
+
+nav ul{
+    height: 10vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+nav ul li{
+    display: flex;
+    list-style: none;
+    padding: 0px 40px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav ul li a:hover{
+    color: rgb(164, 192, 245);
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.container{
+    min-height: calc(100vh - 8vh - 10vh);
+}
+
+.slider{
+    margin: 12px auto;
+    width: 80vw;
+    overflow: hidden;
+}
+
+.slider img{
+    width: 95vw;
+    height: 50vh;
+}
+
+.card{
+    max-width: 90vw;
+    margin: 35px auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+.cards{
+    display: flex;
+    overflow: hidden;
+}
+
+.card-item{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 15px;
+}
+
+footer{
+    height: 10vh;
+    background-color: rgb(23, 35, 55);
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
